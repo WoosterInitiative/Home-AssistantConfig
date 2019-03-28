@@ -2,14 +2,14 @@ homeassistant:
   # Name of the location where Home Assistant is running
   name: Home
   # Location required to calculate the time the sun rises and sets
-  latitude: !secrets home_lat
-  longitude: !secrets home_lon
+  latitude: !secret home_lat
+  longitude: !secret home_lon
   # Impacts weather/sunrise data (altitude above sea level in meters)
-  elevation: !secrets home_ele
+  elevation: !secret home_ele
   # metric for Metric, imperial for Imperial
   unit_system: metric
   # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-  time_zone: !secrets home_tz
+  time_zone: !secret home_tz
   # Customization file
   customize: !include customize.yaml
 
