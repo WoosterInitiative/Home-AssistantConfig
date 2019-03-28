@@ -3,6 +3,7 @@
 
 # Whitelist specific filetypes
 !*.yaml
+!*.yml
 !.gitignore
 !*.md
 
