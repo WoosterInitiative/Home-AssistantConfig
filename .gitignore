@@ -1,0 +1,17 @@
+# Ignore ALL files by default
+*
+
+# Whitelist specific filetypes
+!*.yaml
+!.gitignore
+!*.md
+
+# Ignore folders
+.storage
+.cloud
+.google.token
+
+# Specify YAML files to be ignored
+ip_bans.yaml
+secrets.yaml
+known_devices.yaml
